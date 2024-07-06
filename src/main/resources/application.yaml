@@ -1,0 +1,16 @@
+spring:
+   datasource:
+      username: superhero
+      password: superhero
+      url: jdbc:mysql://localhost:3306/superheroes_and_villains
+     
+     
+   jpa:
+      hibernate:
+         ddl-auto: update
+      show-sql: true
+      defer-datasource-intialization: true
+     
+   sql:
+      init:
+         mode: never
